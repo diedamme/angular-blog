@@ -1,13 +1,13 @@
 <div class="card">
     <div class="card-header">
-        <h2>Post title</h2>
-        <small>12.09.2021</small>
+        <h2>{{post.title}}</h2>
+        <small>{{post.date | date: 'dd.MM.yyyy'}}</small>
     </div>
 
-    <small>Sergey</small>
-
+    <small>{{post.author}}</small>
+<br>
     <button 
-    [routerLink]="['/post', 123]"
+    [routerLink]="['/post', post.id]"
     class="btn btn-dark">
     Открыть
 </button>
