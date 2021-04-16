@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/angula-blog",
+    "public": "dist/angular-blog",
     "ignore": [
       "firebase.json",
       "**/.*",
